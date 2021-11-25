@@ -37,17 +37,18 @@ h2{
 }
 h3{
     color: #3f4041;
-    padding: 10px 0;
 
 }
 h4{
     color: white;
     font-weight: 200;
-    font-size:12px;
+    font-size:16px;
+    padding: 7px 0;
 }
 
 p{
     color: #3f4041;
+    font-weight: 200;
 }
 
 /*-----------------------------------Header--------------------------*/
@@ -73,7 +74,7 @@ p{
   }
   
   nav ul a {
-    color: #f7f7de;
+    color: white;
   }
   
   nav ul li {
@@ -83,7 +84,7 @@ p{
   }
   
   nav ul li:hover {
-    border-bottom: 2px solid#f7f7de;
+    border-bottom: 2px solid white;
   }
 
   .buttons {
@@ -119,12 +120,16 @@ header {
     justify-content:center;
     align-items: center;
     text-align: center;
-    height: 250px;
+    height: 40vh;
+}
+header .contact{
+    padding-bottom: 50px;
 }
 
 header .contact h1 {
     padding: 70px 10px 10px 10px;
-    font-size: 50px;
+    font-size: 70px;
+    font-weight: 400;
     text-transform: uppercase;
     color: white;
 }
@@ -139,12 +144,13 @@ main{
     display: flex;
     justify-content:space-between;
     align-content:center;
-    margin: 0 7%;
+    margin: 0 2%;
+    height: 120vh
 }
 .form{
     width: 50%;
     background: #FFFFFF;
-    padding: 20px;    
+    padding: 30px;   
 }
 
 .form p{
@@ -160,12 +166,12 @@ main{
     outline: none;
     display: block;
     width: 100%;
-    margin: 20px 0;
+    margin: 30px 0;
     padding: 10px;
     border: none;
     border: 1px solid #ddd;
     background: transparent;
-    height: 40px;
+    height: 45px;
     font-style: italic;
     border-radius: 5px;
   }
@@ -177,12 +183,12 @@ main{
     outline: none;
     display: block;
     width: 100%;
-    margin: 20px 0;
+    margin: 30px 0;
     padding: 10px;
     border: none;
     border: 1px solid #ddd;
     background: transparent;
-    height: 120px;
+    height: 150px;
     font-style: italic;
     border-radius: 5px;
   }
@@ -193,34 +199,51 @@ main{
     border-radius: 5px;
     cursor: pointer;
     color: #FFFFFF;
-    font-family: "Roboto", sans-serif;
     font-size: 14px;
-    padding: 8px 18px;
+    padding: 25px 60px;
+    text-transform: uppercase;
     text-decoration: none;
   }
-  
-
-  
-.social{
+ .social{
       width: 50%;
-      padding: 20px;
-}
-
+      padding: 30px;
+ } 
 .social p{
     padding: 20px 0;
 }
-
-.social i{
-    background-color: #F38E58;
-    padding: 20px;
-    border-radius: 50%;
-    font-size: 18px;
-    color: white;
-
+  
+.social-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;  
 }
 
-.social a{
+.social h3{
+    padding: 20px 0;
+}
+
+.social-container .social-icons img{
+    width: 80px;
+    padding: 18px 10px;
+}
+.social-text li{
+    padding: 20px 0;
+    color: #3f4041;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.social-text ul li a{
     color:#F38E58;
+}
+
+.create button{
+    border: none;
+    padding:16px 50px;
+    border-radius: 7px;
+    font-size:12px;
+    background-color: #031C26;
+    color: white;
 }
 
 
@@ -231,16 +254,18 @@ footer{
     justify-content: space-around;
     align-content:center;
     background-color:#3f4041;
-    padding: 20px;
+    height: 30vh;
+    padding:30px;
 }
 
 footer a{
-    color: #e9e8e690;
-    font-size: 10px;
+    color: #e9e8e673;
+    font-size: 15px;
+    font-weight: 100;
 }
 
 footer ul li {
-    padding: 2px;
+    padding: 2px 0;
 }
 
 footer .footer-social ul {
@@ -250,12 +275,17 @@ footer .footer-social ul {
 footer .footer-social ul li a i{
     padding: 5px 10px 0 0;
     color: #F38E58;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 footer .create ul li p{
     color: #e9e8e690;
-    font-size: 12px;
+    font-size: 15px;
     padding: 10px 0;
+    line-height: 1.8;
 }
 
+/*----------------------copyrights---------------------*/
+.copyrights{
+    
+}

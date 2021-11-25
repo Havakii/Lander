@@ -1,0 +1,114 @@
+/* COLOR PALETTE
+Orange header: #F2845C;
+Blue title: #61b3d9;
+Footer & text: #3f4041;
+Footer links: #e9e8e6;
+Pink Icon: #f8cca9;
+Button free trial: #032030;
+Button create your landing page: #031C26;
+
+--------------------------------General CSS--------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none
+}
+
+
+/*-----------------------------------Header--------------------------*/
+  
+  nav {
+    padding: 10px;
+    background-color: #F38E58;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+ nav #brand {
+    margin: 0 0 0 25%;
+  } 
+  
+  nav ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  nav ul a {
+    color: #f7f7de;
+  }
+  
+  nav ul li {
+    margin-left: 50px;
+    font-size: 18px;
+
+  }
+  
+  nav ul li:hover {
+    border-bottom: 2px solid#f7f7de;
+  }
+
+  .buttons {
+      margin: 0 7% 0 0;
+      padding: 10px;
+      
+  }
+
+  .buttons button {
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      color: white;
+      font-size: 10px;
+      font-weight: bolder;
+  }
+
+  .buttons .free-trial{
+      background-color:#032030;
+      border: 2px solid #032030;
+  }
+  .buttons .login{
+    background-color:#F38E58;
+    border: 2px solid white;
+}
+
+
+/*---------------------------------Header---------------------------------*/
+
+header {
+    background-color:#F38E58;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+}
+
+header .contact h1 {
+    padding: 70px 10px 10px 10px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+header .contact p{
+    color: #031C26;
+}

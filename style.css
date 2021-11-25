@@ -29,6 +29,26 @@ li{
     list-style: none
 }
 
+h2{
+    color:#61b3d9;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 20px 0;
+}
+h3{
+    color: #3f4041;
+    padding: 10px 0;
+
+}
+h4{
+    color: white;
+    font-weight: 200;
+    font-size:12px;
+}
+
+p{
+    color: #3f4041;
+}
 
 /*-----------------------------------Header--------------------------*/
   
@@ -112,3 +132,130 @@ header .contact h1 {
 header .contact p{
     color: #031C26;
 }
+
+/*----------------------------Main-------------------------------*/
+
+main{
+    display: flex;
+    justify-content:space-between;
+    align-content:center;
+    margin: 0 7%;
+}
+.form{
+    width: 50%;
+    background: #FFFFFF;
+    padding: 20px;    
+}
+
+.form p{
+    padding: 20px 0;
+}
+.form input[type="email"],
+.form input[type="text"],
+.form input[type="number"]
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border: 1px solid #ddd;
+    background: transparent;
+    height: 40px;
+    font-style: italic;
+    border-radius: 5px;
+  }
+  
+  .form input[type="message"]{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px;
+    border: none;
+    border: 1px solid #ddd;
+    background: transparent;
+    height: 120px;
+    font-style: italic;
+    border-radius: 5px;
+  }
+  
+  .form button[type="submit"]{
+    border: none;
+    background-color:#F38E58;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+  }
+  
+
+  
+.social{
+      width: 50%;
+      padding: 20px;
+}
+
+.social p{
+    padding: 20px 0;
+}
+
+.social i{
+    background-color: #F38E58;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+
+}
+
+.social a{
+    color:#F38E58;
+}
+
+
+  /*----------------------------Footer----------------------------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-content:center;
+    background-color:#3f4041;
+    padding: 20px;
+}
+
+footer a{
+    color: #e9e8e690;
+    font-size: 10px;
+}
+
+footer ul li {
+    padding: 2px;
+}
+
+footer .footer-social ul {
+    display: flex;
+}
+
+footer .footer-social ul li a i{
+    padding: 5px 10px 0 0;
+    color: #F38E58;
+    font-size: 16px;
+}
+
+footer .create ul li p{
+    color: #e9e8e690;
+    font-size: 12px;
+    padding: 10px 0;
+}
+
